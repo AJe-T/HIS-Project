@@ -75,22 +75,6 @@ const DashBoard: React.FC = () => {
         </div>
 
         <hr />
-        <div className="row">
-          <div className="col-sm-4">
-            <div className="card bg-primary-subtle">
-              <div className="card-header">
-                <h1>Data Collection</h1>
-              </div>
-              <div className="card-body">
-                <div className="row px-3">
-                  <Link to="/createCase" className="btn btn-primary ">
-                    Click
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );

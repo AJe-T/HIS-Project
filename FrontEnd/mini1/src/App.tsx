@@ -23,12 +23,6 @@ import Active from "./Modules/Dynamic/Admin-1_mini_1/Components/Active_Plan/Acti
 import DeleteAccount from "./Modules/Dynamic/Admin-2_mini_3/Components/Delete/Delete";
 import ActiveSwitch from "./Modules/Dynamic/Admin-2_mini_3/Components/ActiveSwitch/ActiveSwitch";
 import { ToastContainer } from "react-toastify";
-import CreateCase from "./Modules/Dynamic/DC-Module_mini_5/Components/Create Case/CreateCase";
-import PlanSelection from "./Modules/Dynamic/DC-Module_mini_5/Components/Plan Selection/PlanSelection";
-import EducationalDetails from "./Modules/Dynamic/DC-Module_mini_5/Components/Educational Details/EducationalDetails";
-import IncomeDetails from "./Modules/Dynamic/DC-Module_mini_5/Components/Income Details/IncomeDetails";
-import KidsDetails from "./Modules/Dynamic/DC-Module_mini_5/Components/Kids Details/KidsDetails";
-import SummaryScreen from "./Modules/Dynamic/DC-Module_mini_5/Components/Summary Screen/SummaryScreen";
 
 const App: React.FC = () => {
   return (
@@ -79,16 +73,6 @@ const App: React.FC = () => {
             path="/deleteAccount/:userId"
             element={<DeleteAccount />}
           ></Route>
-          {/* ================ mini-5 ================================ */}
-          <Route path="/createCase" element={<CreateCase />}></Route>
-          <Route path="/planSelection" element={<PlanSelection />}></Route>
-          <Route path="/incomeDetails" element={<IncomeDetails />}></Route>
-          <Route
-            path="/educationalDetails"
-            element={<EducationalDetails />}
-          ></Route>
-          <Route path="/kidsDetails" element={<KidsDetails />}></Route>
-          <Route path="/summaryScreen" element={<SummaryScreen />}></Route>
 
           {/* ----------- extra ----------------------- */}
           <Route path="*" element={<NotFound404 />}></Route>
