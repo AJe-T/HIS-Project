@@ -1,0 +1,10 @@
+.content {
+  background-image: url("./../../../Assets/404.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: rgb(21, 21, 21);
+}
